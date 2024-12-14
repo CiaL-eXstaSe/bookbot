@@ -10,9 +10,11 @@ def main():
     word_count = get_word_count(text)
     character_count = get_character_count(text)
     
+    print(f"--- Begin report of {book_path} ---")
     print(f"{word_count} words found in the document")
     print("\nCharacter counts:")
     print_character_count(character_count)
+    print(f"--- End report ---")
 
 # TODO 2:
 # - Add a new function to your script that takes the text from the book as a string, and returns the number of words in the string.
